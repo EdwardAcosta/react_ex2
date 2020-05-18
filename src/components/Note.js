@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../css/Note.css'
+import '../css/Note.css';
 
 class Note extends Component {
     
@@ -19,12 +19,12 @@ class Note extends Component {
   }
 }
 
-Note.defaultProps = {
+  Note.defaultProps = {
   title: "A cool title",
   body: "A cool body",
 };
 
-//Note.propTypes = {
+//  Note.propTypes = {
 //  title: PropTypes.string
 //};
 

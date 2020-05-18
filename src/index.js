@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Board from './components/Board';
 import * as serviceWorker from './serviceWorker';
-import Note from './components/Note';
+//import Note from './components/Note';
 
 ReactDOM.render(
   <React.StrictMode>
     <Board/>
-    <Note/>
+    
     
   </React.StrictMode>,
   document.getElementById('root')
